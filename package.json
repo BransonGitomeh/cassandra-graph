@@ -1,0 +1,25 @@
+{
+  "name": "cassandra-graph",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack --watch & nodemon dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.3.0",
+    "babel-loader": "^6.4.1",
+    "cassandra-driver": "^3.2.0",
+    "eslint": "^3.19.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^4.0.0",
+    "eslint-plugin-react": "^6.10.3",
+    "express-graphql": "^0.6.4",
+    "source-map-support": "^0.4.14",
+    "webpack": "^2.3.3"
+  }
+}
